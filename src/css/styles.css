@@ -1,0 +1,32 @@
+/* <!-- All margins and padding must be zero for the canvas to fill the screen. --> */
+
+html,
+body {
+    height: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(201, 192, 192);
+    color: #fff;
+    overflow: hidden;
+    -ms-touch-action: none;
+    touch-action: none;
+}
+
+#c2canvasdiv {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+
+canvas {
+    border: 5px solid blue;
+    -ms-touch-action: none;
+    touch-action: none;
+}
