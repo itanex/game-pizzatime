@@ -1,6 +1,7 @@
 {
     "files": [
-        "./src/**/*.{js,html,css,json}"
+        "./src/**/*.{js,html,css,json}",
+        ".src/offline.appcache"
     ],
     "port": 8000,
     "server": {
