@@ -1,0 +1,20 @@
+{
+  "name": "pizzatime",
+  "version": "1.0.0",
+  "description": "Simple game with TMNT theme",
+  "main": "index.html",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite"
+  },
+  "keywords": [
+    "html5",
+    "game"
+  ],
+  "author": "Bryan Wood, Elliot Martin",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/angular": "^1.6.17",
+    "lite-server": "^2.3.0"
+  }
+}
